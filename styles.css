@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #72b9e9;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif; 
+  font-size: 36px; 
+  font-weight: bold; 
+  color: #2c3e50; 
+  margin-bottom: 20px;
+}
+
+.player-names {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.scoreboard {
+  margin-bottom: 20px;
+}
+
+#player1-score, #player2-score {
+  font-size: 18px;
+  margin: 10px;
+}
+
+button {
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  font-size: 16px;
+  cursor: pointer;
+  background: none; /* No background color */
+  color: #fff;
+  border: 2px solid #fff; /* White border */
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #fff; /* Fill the background on hover */
+  color: #3498db; /* Change text color on hover */
+}

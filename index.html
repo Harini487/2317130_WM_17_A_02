@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dice Game 🎲</title>
+  </head>
+  <body>
+    <h1 id="winner-text">🎲Rolling Rivalry: Dice Duel🎲</h1>
+    <div class="player-names">
+      <label for="player1">Player 1 Name:</label>
+      <input type="text" id="player1" placeholder="Enter Player 1 Name" />
+      <br />
+      <label for="player2">Player 2 Name:</label>
+      <input type="text" id="player2" placeholder="Enter Player 2 Name" />
+      <br />
+      <button id="start-btn" onclick="startGame()">Start Game</button>
+    </div>
+    <div class="dice-container">
+      <img id="player1-dice" src="images/dice1.png" alt="Player 1 Dice" />
+      <img id="player2-dice" src="images/dice1.png" alt="Player 2 Dice" />
+    </div>
+    <div class="scoreboards">
+      <div class="scoreboard" id="player1-scoreboard">
+        <p id="player1-score">Player 1 Score: 0</p>
+      </div>
+      <div class="scoreboard" id="player2-scoreboard">
+        <p id="player2-score">Player 2 Score: 0</p>
+      </div>
+    </div>
+    <button id="roll-btn" onclick="rollDice()" disabled>Roll Dice</button>
+    <script src="script.js"></script>
+  </body>
+</html>
